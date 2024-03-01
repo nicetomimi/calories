@@ -47,7 +47,7 @@ let caloriesRender = () => {
   document.getElementById("result-area").innerHTML = resultHTML;
 };
 
-// 텍스트 변경 애니메이션
+// 이모지 애니메이션
 let changingText = document.getElementById("changingText");
 let texts = [
   "⛳",

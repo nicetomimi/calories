@@ -22,6 +22,7 @@ p {
     font-family: "Pretendard-Regular";
     font-weight: 900;
     font-size: 2.7rem;
+    line-height: 120%;
   }
   
 .sub-title {
@@ -78,24 +79,6 @@ p {
   margin: 0.2em;
 }
 
-.exercise-input-box {
-  border: none;
-  border-radius: 1em;
-  width: 90%;
-  height: 80px;
-  padding-left: 1em;
-}
-
-.exercise-search-button {
-  border: none;
-  border-radius: 2em;
-  width: 90%; 
-  height: 50px;
-  background-color: #0554f6;
-  color: white;
-  margin-top: 1em;
-}
-
 .exercise-input-area {
   width: 35em;
   height: 25em;
@@ -119,8 +102,6 @@ p {
 
 .message-text-area{
   width: 90%;
-  box-sizing: border-box;
-  word-wrap: break-word;
   margin-bottom: 1em;
 }
 
@@ -135,6 +116,25 @@ p {
 
 .search-guide-img {
   display: flex;
+}
+
+.exercise-input-box {
+  border: none;
+  border-radius: 1em;
+  width: 90%;
+  height: 80px;
+  padding-left: 1em;
+}
+
+/* 요소 스타일 */
+.exercise-search-button {
+  border: none;
+  border-radius: 2em;
+  width: 90%; 
+  height: 50px;
+  background-color: #0554f6;
+  color: white;
+  margin-top: 1em;
 }
 
 .img-container {
@@ -152,3 +152,8 @@ p {
   position: relative;
 }
 
+@media screen and (max-width: 1150px) {
+  body {
+    margin: 2em;
+  }
+}
